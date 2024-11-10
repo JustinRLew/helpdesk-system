@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk Ticket Submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Submit a Help Desk Ticket</h1>
+    <form id="ticketForm">
+        <label for="title">Ticket Title</label>
+        <input type="text" id="title" name="title" placeholder="Title of Ticket" required>
+
+        <label for="description">Description</label>
+        <textarea id="description" name="description" placeholder="Describe your issue" required></textarea>
+
+        <label for="urgency">Urgency Level</label>
+        <select id="urgency" name="urgency" required>
+            <option value="">Select Urgency</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <label for="category">Category</label>
+        <select id="category" name="category" required>
+            <option value="">Select category</option>
+            <option value="hardware">Hardware</option>
+            <option value="software">Software</option>
+            <option value="network">Network</option>
+            <option value="other">Other</option>
+        </select>
+
+        <button type="submit">Submit Ticket</button>
+    </form>
+</div>
+
+</body>
+</html>
