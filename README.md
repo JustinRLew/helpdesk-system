@@ -1,5 +1,5 @@
 ## Help Desk Ticketing System
-A fully functional Help Desk Ticketing System that allows users to submit support tickets, IT staff to manage tickets, and administrators to update and resolve issues. The project demonstrates full-stack development, role-based access control, and secure deployment on Google Cloud Platform (GCP).
+This is a fully functional Help Desk Ticketing System that allows users to submit support tickets, IT staff to manage tickets, and administrators to update and resolve issues. The project demonstrates full-stack development, role-based access control, and secure deployment on Google Cloud Platform (GCP).
 
 
 ## Features
